@@ -1,4 +1,4 @@
-#Welcome-to-ice-cream-website-🎉
+# Welcome-to-ice-cream-website-🎉
 
 Xin chao! 👋 
 This is a beginner-friendly project I built while on my self-learning journey into web development. This project was created using Vanilla JavaScript, HTML, and CSS, without any frameworks or libraries, to reinforce my understanding of core web technologies.
