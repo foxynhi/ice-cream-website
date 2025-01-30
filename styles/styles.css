@@ -1,0 +1,132 @@
+* {
+  font-family: serif, sans-serif;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-padding-top: 70px;
+}
+
+:root {
+  --main-background: #FEF9F5;  
+  --main-font: Georgia, 'Times New Roman', sans-serif;
+  --main-color: #EA4E64;
+  --header-font-size: 2rem;
+}
+
+main {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.button {  
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--main-background);
+  background-color: var(--main-color);
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Header style */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  width: 100%;
+  background: var(--main-background);
+  color: var(--main-color);
+  z-index: 1;
+}
+
+header a {
+  color: var(--main-color);
+  line-height: 50px;
+  display: inline-block;
+}
+
+.header-img {
+  display:flex;
+}
+
+.header-img img {
+  height: 70px;
+}
+
+.header-img .store-name {
+  font-size: var(--header-font-size);
+  text-shadow: 2px 2px 5px #9a8585;
+  align-self: center;
+}
+
+/* Navigation bar  */
+.nav-bar {
+  width: 50%;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-bar span {
+  height: 80%;
+  align-content: center;
+  border-bottom: var(--main-color) solid 3px;
+  margin: 15px 10px;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.quantity span {
+  margin: 10px 0;
+  height: 35px;
+  width: 45px;
+  line-height: 30px;
+  border: 1px solid var(--main-color);
+}
+
+.quantity span:first-of-type {
+  border-radius: 25px 0 0 25px;
+}
+
+.quantity span:last-of-type {
+  border-radius: 0 25px 25px 0;
+}
+
+header i.nav-menu {
+  display: none;
+  font-size: var(--header-font-size);
+}
+
+main h1 {
+  margin: 0.5rem 0;
+}
+
+.video {
+  display: block;
+  margin: auto;
+  width: 80%;
+  aspect-ratio: 16 / 9;
+}

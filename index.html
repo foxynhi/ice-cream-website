@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel='stylesheet' href='styles/styles.css' />
+    <link rel='stylesheet' href='styles/mediaQueries.css' />
+    <link rel='stylesheet' href='styles/intro.css' />
+    <link rel='stylesheet' href='styles/cart.css' />
+    <link rel='stylesheet' href='styles/product.css' />
+    <link rel='stylesheet' href='styles/feature.css' />
+    <meta charset='utf-8'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Summer Ice Cream</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="resources/logo-removebg.png" type="image/png">
+  </head>
+  
+  <body>
+    <!-- Header -->
+    <header id='header'>
+      <span class="header-img">
+        <img src='resources/logo.png' alt='Summer Ice Cream logo' />
+        <a class="store-name" href="index.html">Summer Ice Cream</a>
+      </span>
+      <span class='nav-bar'>
+          <span><a href='#features'>Features</a></span>
+          <span><a href='#how-its-made'>How we make Ice Cream</a></span>
+          <span><a href='#our-flavors'>Our menu</a></span>
+      </span>
+      <span class="cart-icon">
+        <i class="fa fa-shopping-cart"></i>
+        <span class="cart-count">0</span>
+      </span>
+
+      <!-- Cart -->
+      <div class="cart">
+        <i class="fa fa-times close-cart"></i>
+        <h1>Your Cart</h1>
+        <div class="no-empty-cart">
+          <ul class="cart-list"></ul>
+          <div class="total">Sub Total: 
+            <span class="sub-total">$0</span>
+          </div>
+          <button class="check-out-btn button">Check Out</button>
+        </div>
+        
+        <div class="empty-cart active">
+          <div class="empty-cart-img">
+            <img src="resources/empty-cart.png" alt="Empty Cart"/>
+          </div>
+          <p class="empty-cart-text">Your cart is empty!</p>
+        </div>
+      </div>
+
+      <span>
+        <i class="fa fa-bars nav-menu"></i>
+      </span>
+    </header>
+    
+    
+
+    <main>
+      <!-- Intro -->
+      <section class="intro">
+        <div class="text">
+          <h1>Cool Summer Vibes!</h1>
+          <br/>
+          <p>
+            Indulge your sweet tooth and explore a world of frozen delight! At <span class="highlight">Summer Ice Creams</span>, we’re passionate about crafting the most delicious, creamy, and irresistible ice creams for every occasion. From classic flavors like vanilla and chocolate to adventurous creations like salted caramel pretzel or mango chili swirl, we’ve got something for everyone.
+          </p>
+          <br/>
+          <p>
+            Not only do we serve scoops of happiness, but we also offer vegan, gluten-free, and sugar-free options to ensure everyone can enjoy a taste of pure joy. Check out our seasonal specials, build your custom sundae, or explore our exclusive ice cream cakes for your next celebration.
+          </p>
+          <a href="#our-flavors" class="button order-now">Order Now</a>
+        </div>
+        <div class="img-grid">
+          <div class="img-box"></div>
+          <div class="img-box"></div>
+          <div class="img-box"></div>
+          <div class="img-box"></div>
+        </div>
+      </section>
+
+      <!-- Shop features -->
+      <section id="features">
+        <h1 >How We Do Business</h1>
+        <div class='features'></div>        
+      </section>
+
+      <!-- Video -->
+      <section id="how-its-made">
+        <h1>How we make our Ice Cream</h1>
+        <div>
+          <iframe class='video' src='resources/our-value.mp4' allowfullsrceen=''></iframe>
+        </div>
+      </section>
+
+      <!-- Flavours Menu -->
+      <section id="our-flavors">
+        <h1>Our Ice Cream Flavors</h1>
+        <div class="products"></div>
+      </section>
+
+
+    </main>
+
+    <script type="module" src="index.js"></script>
+    <script src="script/cart.js"></script>
+    <script src="script/nav.js"></script>
+  </body>
+</html>

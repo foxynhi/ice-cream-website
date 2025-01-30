@@ -1,0 +1,43 @@
+/* Products Display */
+#our-flavors {
+    width: 80%;
+    margin: auto;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+}
+
+.products .product-box {
+    display: grid;
+    padding: 10px;
+    margin: 20px;
+    height: auto;
+    border: 1px solid var(--main-color);
+    border-radius: 15px;
+    justify-items: center;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-box .name-price {
+    width: 100%;
+    height: fit-content;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.description {
+    text-align: justify;
+}
+
+.add-to-cart {
+    align-self: end;
+}

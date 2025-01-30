@@ -1,0 +1,53 @@
+/* Feature section */
+#features {
+  background-color: #ea4e63aa;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#features h1 {
+  width: fit-content;
+  margin: 0 auto 20px;
+  padding: 10px 50px;
+  background-color: var(--main-background);
+  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0 100%, 5% 50%, 0 0);
+}
+
+.features {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  width: 80%;
+}
+
+.features .feature-box {
+  display: flex;
+  justify-content: center;
+  min-height: 300px;
+  min-width: 600px;
+  width: 40%;
+  padding: 30px;
+  gap: 20px;
+  background-color: var(--main-background);
+  border-radius: 15px;
+}
+
+.feature-img {
+  width: 50%;
+  min-width: 300px;
+}
+
+.feature-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.feature-text {
+  width: 60%;
+  text-align: justify;
+}
+
+.feature-text h2 {
+  margin: 20px 0;
+}

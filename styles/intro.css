@@ -1,0 +1,67 @@
+/* Intro */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+}
+
+.intro h1 {
+  color: var(--main-color);
+}
+
+.intro .text {
+  width: 40%;
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+}
+
+.highlight {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.order-now {
+  position: relative;
+  margin: 1rem auto 0;
+  width: fit-content;
+}
+
+.img-grid {
+  width: 50%;
+  min-width: 450px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  padding: 15px;
+}
+
+.img-box {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-box:nth-of-type(1) {
+  border-radius: 25px 0 0 0;
+  background-image: url("../resources/home/873564_MilkCookies_Scooped_458_1920x1920.jpg");
+}
+
+.img-box:nth-of-type(2) {
+  border-radius: 0 25px 0 0;
+  background-image: url("../resources/home/ss_cakes_birthday.webp");
+}
+
+.img-box:nth-of-type(3) {
+  border-radius: 0 0 0 25px;
+  background-image: url("../resources/home/card_scoop_shop_1080x720.avif");
+}
+
+.img-box:nth-of-type(4) {
+  border-radius: 0 0 25px 0;
+  background-image: url("../resources/home/vegan-shake_1920x1920.avif");
+}
