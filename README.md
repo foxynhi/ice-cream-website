@@ -11,7 +11,7 @@ I wanted to challenge myself by building something from scratch, improving my Ja
 This website allows users to browse different sections related to the ice cream shop. Users can be introduced to the shop, view and manage their shopping cart. Cart items are saved in local storage, so they persist even after refreshing the page.
 ### What I Learned 📚
 
-* List item Deepened my understanding of JavaScript fundamentals
+* Deepened my understanding of JavaScript fundamentals
 * Improved my skills in CSS styling and layout techniques
 * Gained experience with handling user interactions
 
