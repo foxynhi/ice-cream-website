@@ -38,3 +38,27 @@ This project was created as part of my self-learning journey into web developmen
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+
+2. Open index.html in your browser to view the website.
+[index.html](http://_vscodecontentref_/1)
+[index.js](http://_vscodecontentref_/2)
+[README.md](http://_vscodecontentref_/3)
+resources/
+  ├── images, videos, and other assets
+script/
+  ├── cart.js
+  ├── featureDB.js
+  ├── nav.js
+  ├── productDB.js
+styles/
+  ├── cart.css
+  ├── feature.css
+  ├── intro.css
+  ├── [mediaQueries.css](http://_vscodecontentref_/4)
+  ├── product.css
+  ├── [styles.css](http://_vscodecontentref_/5)
+
+---
+
+## 🎉 Acknowledgments
+Thank you for taking the time to explore my project! I hope you enjoy browsing through the Summer Ice Cream website as much as I enjoyed building it. 😊
